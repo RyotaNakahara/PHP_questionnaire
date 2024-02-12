@@ -10,6 +10,6 @@
             nickname: <input type="text" name="nickname">
         </div>
         <div>
-            <input type="submit" value="ログイン">
+            <input type="submit" value="登録">
         </div>
     </form>

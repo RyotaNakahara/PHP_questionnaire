@@ -7,4 +7,13 @@
     <link rel="stylesheet" href="../../css/sample.css">
 </head>
 <body>
-    <p>ヘッダーです</p>
+<?php 
+    use lib\Auth;
+
+    if (Auth::isLogin()) {
+        echo 'ログイン中！';
+    } else {
+        echo 'ログインしていません。';
+    }
+
+    ?>
